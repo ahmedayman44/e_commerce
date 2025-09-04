@@ -1,4 +1,4 @@
-import 'package:e_commerce/core/app_fonts.dart';
+import 'package:e_commerce/presentation/resources/app_fonts.dart';
 import 'package:flutter/material.dart';
 
 TextStyle _getTetStyle(double fontSize, Color color, FontWeight fontWeight) {

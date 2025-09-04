@@ -1,7 +1,7 @@
-import 'package:e_commerce/core/app_color.dart';
-import 'package:e_commerce/core/app_fonts.dart';
-import 'package:e_commerce/core/app_styles.dart';
-import 'package:e_commerce/core/app_values.dart';
+import 'package:e_commerce/presentation/resources/app_color.dart';
+import 'package:e_commerce/presentation/resources/app_fonts.dart';
+import 'package:e_commerce/presentation/resources/app_styles.dart';
+import 'package:e_commerce/presentation/resources/app_values.dart';
 import 'package:flutter/material.dart';
 
 ThemeData getApplicationTheme() {
