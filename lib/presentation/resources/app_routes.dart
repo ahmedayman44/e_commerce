@@ -2,6 +2,7 @@ import 'package:e_commerce/presentation/forget_password/forget_password._view.da
 import 'package:e_commerce/presentation/login/login_view.dart';
 import 'package:e_commerce/presentation/main/main_view.dart';
 import 'package:e_commerce/presentation/register/register_view.dart';
+import 'package:e_commerce/presentation/resources/app_strings.dart';
 import 'package:e_commerce/presentation/splash/splash_view.dart';
 import 'package:e_commerce/presentation/store_detailes/store_details_view.dart';
 import 'package:flutter/material.dart';
@@ -40,8 +41,8 @@ class RouteGenerator {
     return MaterialPageRoute(
       builder: (_) {
         return Scaffold(
-          appBar: AppBar(title: Text('No Route  Found')),
-          body: Center(child: Text('No Route  Found')),
+          appBar: AppBar(title: Text(AppStrings.noRouteFound)),
+          body: Center(child: Text(AppStrings.noRouteFound)),
         );
       },
     );
