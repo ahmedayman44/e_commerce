@@ -1,3 +1,6 @@
+import 'package:e_commerce/presentation/resources/app_routes.dart';
+import 'package:e_commerce/presentation/resources/app_theme.dart';
+import 'package:e_commerce/presentation/splash/splash_view.dart';
 import 'package:flutter/material.dart';
 
 class MyApp extends StatefulWidget {
@@ -12,6 +15,13 @@ class MyApp extends StatefulWidget {
 class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return MaterialApp(
+      onGenerateRoute:
+          RouteGenerator.getRoute, // ToDo function routes in getRoute
+      initialRoute: Routes.splashRoute, // To Start from splashscreen
+      theme: getApplicationTheme(),
+      debugShowCheckedModeBanner: false,
+      home: SplashView(),
+    );
   }
 }

@@ -72,17 +72,17 @@ flutter:
   # list giving the asset and other descriptors for the font. For
   # example:
   fonts:
-    - family: Montserrat
+    - family: MontserratUnderline
       fonts:
-        - asset: assets/fonts/Montserrat-Bold.ttf
+        - asset: assets/fonts/MontserratUnderline-Bold.ttf
           weight: 700
-        - asset: assets/fonts/Montserrat-SemiBold.ttf
+        - asset: assets/fonts/MontserratUnderline-SemiBold.ttf
           weight: 600
-        - asset: assets/fonts/Montserrat-Medium.ttf
+        - asset: assets/fonts/MontserratUnderline-Medium.ttf
           weight: 500
-        - asset: assets/fonts/Montserrat-Regular.ttf
+        - asset: assets/fonts/MontserratUnderline-Regular.ttf
           weight: 400
-        - asset: assets/fonts/Montserrat-Light.ttf
+        - asset: assets/fonts/MontserratUnderline-Light.ttf
           weight: 300
 
   # For details regarding fonts from package dependencies,
